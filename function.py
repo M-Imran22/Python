@@ -26,21 +26,21 @@ add_numbers([2, 3, 4, 5])
 # Give us a tuple
 
 
-def add_numbers(*list):
-    return print(list)
+# def add_numbers(*list):
+#     return print(list)
 
 
-add_numbers(2, 3, 4, 5)
+# add_numbers(2, 3, 4, 5)
 
 
-def add_numbers(*list):
-    totle = 0
-    for number in list:
-        totle += number
-    return totle
+# def add_numbers(*list):
+#     totle = 0
+#     for number in list:
+#         totle += number
+#     return totle
 
 
-print(add_numbers(1, 2, 3, 4, 5))
+# print(add_numbers(1, 2, 3, 4, 5))
 
 # Give us a dictionory
 
