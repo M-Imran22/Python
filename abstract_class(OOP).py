@@ -45,3 +45,7 @@ class NetworStream(Stream):
 
 file_stream = FileStream()
 print(file_stream.read())
+
+network_stream = NetworStream()
+print(network_stream.read())
+print(network_stream.close())
